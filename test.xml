@@ -1,0 +1,32 @@
+<suit    name="*suit."  parallel="test"  >
+<listeners>
+
+</listeners>
+ <groups>
+ <run>
+ <include> name={"smoke"}
+ 
+ 
+ </include>
+ 
+ </run>
+ 
+ </groups>
+	<test>
+<parameters> name="asma" value="666"
+</parameters>
+		<classes>
+		<class   name=" burlington.A  "   >
+		<method>
+		<exclude>   name="" </exclude>
+		</method>
+		</class>
+		<class   name=" burlington.gg  "   >
+		</class>
+		
+		</classes>
+	
+	</test>
+
+
+</suit>
